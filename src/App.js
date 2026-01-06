@@ -299,7 +299,8 @@ function App() {
               Capture Face
             </button>
 
-            {face && <img src={face} className="preview" />}
+            {face && <img src={face} alt="Captured face preview" className="preview" />}
+
 
             <input
               placeholder="Name"
